@@ -1,0 +1,19 @@
+# id|text   (c = a chunk that states one fact, d = a distractor that shares the vocabulary)
+c01|Checkout Service depends on Payment Gateway.
+c02|Payment Gateway is owned by Payments Team.
+c03|Payments Team is led by Alice Chen.
+c04|Payment Gateway depends on Fraud Engine.
+c05|Fraud Engine is provided by Veridian Labs.
+c06|Notification Service depends on Ledger Service.
+c07|Ledger Service is owned by Platform Team.
+c08|Platform Team is led by Bob Rivera.
+d01|The Checkout Service dashboard shows latency and error rate for every region.
+d02|Alice Chen gave a talk about leading engineering teams at a meetup in March.
+d03|The Payments Team holds its planning meeting every Tuesday morning.
+d04|Veridian Labs publishes a monthly newsletter about fraud trends and machine learning.
+d05|The Fraud Engine model was retrained in March with new transaction data.
+d06|Payment Gateway latency doubled during the holiday sale last year.
+d07|Ledger Service stores every transaction for seven years to meet audit rules.
+d08|Bob Rivera joined the company after working on logistics software.
+d09|The Notification Service sends email and push messages to customers.
+d10|Platform Team office hours are open to every engineer.

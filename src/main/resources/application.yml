@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: graphrag-neo4j
+  ai:
+    vectorstore:
+      neo4j:
+        initialize-schema: true
+        label: Chunk
+        index-name: chunk_embedding
+        embedding-dimension: 384   # all-MiniLM-L6-v2
+
+demo:
+  vector-top-k: 3     # chunks plain vector RAG puts in the context
+  graph-hops: 3       # longest path walked from a seed entity
+  graph-top-paths: 3  # paths kept after ranking against the question
